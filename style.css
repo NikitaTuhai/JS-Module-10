@@ -1,0 +1,45 @@
+.container{
+    display: flex;
+    justify-content: space-around
+}
+.container .btn{
+    background-color: beige;
+    font-family: cursive;
+    font-weight: 600;
+    margin-top:10px;
+    border: 1px solid grey;
+}
+.container div{
+    background-color: beige;
+    border: 2px solid grey;
+    padding: 10px;
+}
+.text{
+    font-style: italic;
+    font-weight: 500;
+    font-size: large;
+}
+
+.show-users{
+    width: 500px;
+    height: 100%;
+    border: 2px solid grey;
+    background-color: beige;
+    margin: auto;
+    margin-top: 25px;
+    padding: 10px;
+    display: none;
+}
+.show-user-id{
+    width: 500px;
+    height: 100%;
+    border: 2px solid grey;
+    background-color: beige;
+    margin: auto;
+    margin-top: 25px;
+    padding: 10px;
+    display: none;
+}
+.container input{
+    margin-top: 10px
+}

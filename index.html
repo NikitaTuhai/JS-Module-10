@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="users">
+        <p class="text">Все пользователи</p>
+        <form class="users-form">
+            <button class="btn js-users-btn" type="submit">Показать</button>
+          </form>
+      </div>
+
+      <div>
+        <p class="text">Пользователь по ID</p>
+        <p>
+          <form class="show-id-user-form">
+            <br><input type="text" class="id" placeholder="ID"></br>
+            <button class="btn js-show-id-btn" type="submit">Показать</button>
+          </form>
+        </p>
+      </div>
+
+      <div>
+        <p class="text">Добавить пользователя</p>
+        <p>
+            <form class="add-user-form">
+                <br><input type="text" class="name" placeholder="Имя"></br>
+                <input  type="text" class="age" placeholder="Возвраст"></br>
+                <button class="btn js-add-user-btn" type="submit">Добавить</button>
+              </form>
+        </p>
+      </div>
+    
+    <div>
+      <p class="text">Удалить пользователя</p>
+      <p>
+        <form class="dell-user-form">
+          <input  type="text" class="dell" placeholder="ID">          </br>
+          <button class="btn js-dell-user-btn" type="submit">Удалить</button>
+        </form>
+      </p>
+    </div>
+    <div>
+            <p class="text">Обновить пользователя</p>
+            <p>
+              <form class="updated-user-form">
+                <br><input type="text" class="update-name" placeholder="Имя"></br>
+                <input  type="text" class="update-age" placeholder="Возвраст"></br>
+                <input  type="text" class="update-id" placeholder="ID"></br>
+
+                <button class="btn js-add-user-btn" type="submit">Обновить</button>
+              </form>
+            </p>
+          </div>
+        </div></div>
+
+<div class="show-users js-show-users">
+  <p class="text">Все Пользователи:</p>
+  <ul class="users-list"></ul>
+</div>
+
+<div class="show-user-id js-show-user-id">
+  <p class="text">Пользователь по ID:</p>
+  <ul class="user-id"></ul>
+</div>
+
+    <script src="index.js"></script>
+  </body>
+</html>
